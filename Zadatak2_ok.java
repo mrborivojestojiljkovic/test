@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Zadatak2_ok {
 	public static void main(String[] args) throws InterruptedException {
 		Scanner input = new Scanner(System.in);
-		System.out.println("Unesite zeljeni broj zvezdica, a najvise 5: ");
+		System.out.println("Unesite zeljeni broj zvezdica, mozete najvise 5: ");
 		int brojZvezdica = input.nextInt();
 
 		System.setProperty("webdriver.chrome.driver", "driver_lib\\chromedriver.exe");
